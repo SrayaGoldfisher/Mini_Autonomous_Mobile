@@ -1,12 +1,3 @@
-/*SERIAL4_PROTOCOL = 9;		//Rangefinder
-SERIAL4_BAUD = 115;			//Serial 4 Baud Rate 115200
-RNGFND1_TYPE = 20;			//Rangefinder is Rangefinder
-RNGFND1_MIN_CM = 10;		//Rangefinder minimum distance 10 [cm]
-RNGFND1_MAX_CM = 300;		//Rangefinder maximum distance 300 [cm]
-RNGFND1_GNDCLEAR = 10;		//Distance from the range finder to the ground [cm]
-*/
-
-
 #include "AP_RangeFinder_Benewake.h"
 
 #include <AP_HAL/AP_HAL.h>
@@ -39,9 +30,17 @@ extern const AP_HAL::HAL& hal;
 // byte 7 (TF02 only)   TIME            Exposure time in two levels 0x03 and 0x06
 // byte 8               Checksum        Checksum byte, sum of bytes 0 to bytes 7
 
+void main() {
+    SERIAL4_PROTOCOL = 9;		//Rangefinder
+    SERIAL4_BAUD = 115;			//Serial 4 Baud Rate 115200
+    RNGFND1_TYPE = 20;			//Rangefinder is Rangefinder
+    RNGFND1_MIN_CM = 10;		//Rangefinder minimum distance 10 [cm]
+    RNGFND1_MAX_CM = 300;		//Rangefinder maximum distance 300 [cm]
+    RNGFND1_GNDCLEAR = 10;		//Distance from the range finder to the ground [cm]
+}
+
 // distance returned in reading_cm, signal_ok is set to true if sensor reports a strong signal
-bool AP_RangeFinder_Benewake::get_reading(uint16_t &reading_cm)
-{
+bool AP_RangeFinder_Benewake::get_reading(uint16_t &reading_cm) {
     if (uart == nullptr) {
         return false;
     }
