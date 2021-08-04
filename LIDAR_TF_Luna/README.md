@@ -10,7 +10,7 @@ More details on both these lidar can be found in the `benewake.com's downloads a
    Support for this sensor is available in Copter-3.6 (and higher) and Rover-3.4 (and higher)
    For a serial connection you can use any spare Serial/UART port.  The diagram below shows how to connect to SERIAL4.
 
-![alt text](.. image:: ../../../images/benewake-tf02-pixhawk.png)
+![alt text](http://en.benewake.com/res/wuliu/images/157893742712833213.jpg)
 
 
 ## Connecting to the Autopilot
@@ -33,4 +33,4 @@ If instead the Telem2 port was used then the serial parameters listed above shou
 Distances read by the sensor can be seen in the Mission Planner's Flight
 Data screen's Status tab. Look closely for "sonarrange".
 
-![alt text](.. image:: ../../../images/mp_rangefinder_lidarlite_testing.jpg)
+![alt text](https://ardupilot.org/copter/_images/mp_rangefinder_lidarlite_testing.jpg)
