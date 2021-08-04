@@ -1,5 +1,5 @@
 ### Benewake TF-Luna
-===================================
+
 The `TF-Luna <http://en.benewake.com/product/detail/5e1c1fd04d839408076b6255.html>`__ has a range of 8m indoor, and 3m outdoor and weighs 5g.
 
 More details on both these lidar can be found in the `benewake.com's downloads area <http://en.benewake.com/download>`__
