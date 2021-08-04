@@ -6,7 +6,7 @@ More details on both these lidar can be found in the `benewake.com's downloads a
 
 .. image:: /res/wuliu/images/157893742712833213.jpg
 
-## note
+## Note
    Support for this sensor is available in Copter-3.6 (and higher) and Rover-3.4 (and higher)
    For a serial connection you can use any spare Serial/UART port.  The diagram below shows how to connect to SERIAL4.
 
