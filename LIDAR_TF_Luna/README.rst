@@ -4,7 +4,7 @@ The `TF-Luna <http://en.benewake.com/product/detail/5e1c1fd04d839408076b6255.htm
 
 More details on both these lidar can be found in the `benewake.com's downloads area <http://en.benewake.com/download>`__
 
-.. image:: ../../../images/benewake-tf02-topimage.jpg
+.. image:: /res/wuliu/images/157893742712833213.jpg
 
 .. note::
 
