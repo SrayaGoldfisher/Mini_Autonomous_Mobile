@@ -13,6 +13,10 @@ More details on both these lidar can be found in the benewake.com's downloads ar
 ## Connecting to the Autopilot
 If the SERIAL4/5 port on a Pixhawk is being used then the following parameters should be set for the first rangefinder:
 ![alt text](https://ardupilot.org/copter/_images/benewake-tf02-pixhawk.png)
+![alt_text](https://i.pinimg.com/originals/a9/32/47/a93247adec604763fde121b0d2225965.jpg)
+<br>
+![alt text](https://i.pinimg.com/originals/d7/f9/c4/d7f9c4993217480651c44c335b2c5a30.jpg)
+![alt_text](https://i.pinimg.com/originals/7a/4d/7d/7a4d7d0160056d41675534d848523b20.jpg)
 
 - [SERIAL4_PROTOCOL] = 9 (Lidar)
 - [SERIAL4_BAUD] = 115 (115200 baud)
